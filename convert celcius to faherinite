@@ -1,0 +1,5 @@
+def celsius_to_fahrenheit(c):
+    multiplier = 9 / 5       
+    offset = 32      
+    fahrenheit = (c * multiplier) + offset
+    return fahrenheit
