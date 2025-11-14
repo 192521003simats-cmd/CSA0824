@@ -1,0 +1,10 @@
+def convert_decimal(number):
+    binary = bin(number)      
+    octal = oct(number)       
+    hexadecimal = hex(number) 
+    print(f"Decimal: {number}")
+    print(f"Binary: {binary[2:]}")    
+    print(f"Octal: {octal[2:]}")       
+    print(f"Hexadecimal: {hexadecimal[2:].upper()}") 
+decimal_number = int(input("Enter a decimal number: "))
+convert_decimal(decimal_number)
