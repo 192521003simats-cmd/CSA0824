@@ -1,0 +1,5 @@
+N=int(input("Enter the limit:"))
+count=0
+for i in range(N,N+1):
+    count+=i
+    print("sum of the N natural numbers",count)
